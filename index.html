@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FCC Go File Metadata Microservice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            border-bottom: 1px solid #6991ad;
+        }
+
+        code {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #cbeaff;
+            border: 1px solid #6991ad;
+            border-radius: 3px;
+            color: #345871;
+            overflow-x: scroll;
+        }
+
+        code a:hover {
+            color: #404a51;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 0 24px 0;
+            padding: 0;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #6991ad;
+            text-decoration: none;
+            transition: all .4s ease-in-out
+        }
+
+        a:hover {
+            color: #cbeaff;
+            text-decoration: none;
+        }
+
+        strong {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>FCC Go File Metadata Microservice</h1>
+    <form action="/get-file-size" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
